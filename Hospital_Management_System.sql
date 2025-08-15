@@ -25,7 +25,7 @@ Department_ID char(8) not null,
 FOREIGN KEY (Department_ID) references Department(Department_ID)
 )
  
-select * from [Doctors]
+select * from [Doctors] 
 
 CREATE TABLE Patient (
 Patient_ID char(6) not null primary key ,
